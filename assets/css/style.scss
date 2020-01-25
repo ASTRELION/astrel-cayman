@@ -2,3 +2,22 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+.page-header
+{
+    background-color: #00f9ff;
+    background-image: linear-gradient(120deg, #155799, #00f9ff);
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4
+{
+    color: #00f9ff;
+}
+
+.project-name a
+{
+    color: #ffffff;
+}
