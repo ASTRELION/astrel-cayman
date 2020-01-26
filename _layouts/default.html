@@ -25,6 +25,7 @@
       <h1 class="project-name"><a href="{{ site.url }}">{{ page.title | default: site.title | default: site.github.repository_name }}</a></h1>
       <h2 class="project-tagline"><a href="{{ site.github.owner_url }}">{{ page.description | default: site.description | default: site.github.project_tagline }}</a></h2>
       <a href="{{ site.github.owner_url }}" class="btn">GitHub</a>
+      <a href="{{ site.github.owner_url }}?tab=repositories" class="btn">Repositories</a>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
